@@ -14,9 +14,20 @@ body {
     background-color: aliceblue;
 }
 
-button {
-    background-color: black;
-    color: aliceblue;
-    font-size: xx-large;
+.botao {
+    height: 50px;
+    width: 90px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    border: solid 2px blue;
     border-radius: 30px;
+    color: blue;
+    background-color: gainsboro;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover {
+    background-color:blue;
+    color: white;
+    transform: scale(1.2)
 }
