@@ -1,11 +1,13 @@
 html {
+    justify-content: center;
     font-size: x-large;
     background-color: aqua;
 }
 
 body {
+    position: relative;
     border-style: groove;
-    margin: 50px;
+    margin: 90px;
     padding: 20px;
     border-radius: 30px;
     border-color: black;
